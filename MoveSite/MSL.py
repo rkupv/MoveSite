@@ -1,3 +1,5 @@
+# MoveSite version for Ubuntu Server
+
 from movesiteutils import MovesiteUtils
 import os.path
 

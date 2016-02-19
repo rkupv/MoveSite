@@ -1,3 +1,5 @@
+MoveSite version for Windows 10
+
 from movesiteutils import MovesiteUtils
 import os.path
 
@@ -16,9 +18,7 @@ drush = os.path.normpath('C:/Users/rkupv/AppData/Roaming/Composer/vendor/drush/d
 while True:
     site = input("Please type Web sitename, either lillan or gretel1:\n")
     site=site.strip()
-    if site == "lillan":
-        break
-    elif site == "gretel1":
+    if site in ('lillan', 'gretel1'):
         break
 
 msu = MovesiteUtils()
