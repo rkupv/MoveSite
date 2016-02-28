@@ -1,18 +1,18 @@
-# MoveSite version for Ubuntu Server
+# MoveSite version for Ubuntu Server and Mint
 
 from movesiteutils import MovesiteUtils
 import os.path
 
 """ Set environment """
 
-place = os.path.normpath('/var/www/html')
+place = os.path.normpath('/home/rkupv/html')
 agurk = 'agurk4.agurk.dk'
 agurkuser = 'rkupv'
 backupsdir = '/home/rkupv/drush-backups'
 keyfile = os.path.normpath('/home/rkupv/.ssh/id_rsa')
 mysqluser = 'rkupv'
 mysqlpw = 'LarsMarianne'
-drush = os.path.normpath('/home/rkupv/.composer/vendor/bin/drush')
+drush = os.path.normpath('/usr/bin/drush')
 usergroup = 'rkupv:www-data'
 
 # Get desired site name
